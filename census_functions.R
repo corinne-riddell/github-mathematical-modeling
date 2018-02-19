@@ -1,5 +1,6 @@
-#TODO: Use the google style guide to identify coding style errors on lines 8, 12, 14, and 16.
+#TODO: Use the google R style guide to identify coding style errors on lines 8, 12, 14, and 16.
 #      One by one, we will edit the file using Github and submit a pull request with the appropriate changes.
+#      google R style guide: https://google.github.io/styleguide/Rguide.xml
 
 add_Census_Region <- function(data, state) {
   data$Census_Region <- NA
