@@ -13,7 +13,10 @@ add_Census_Region <- function(data, state) {
                                        "New Hampshire", "Rhode Island", "Vermont",
                                        "New Jersey", "New York", "Pennsylvania")] <- "Northeast"
   
-  data$Census_Region[data$state %in% c("Arizona", "Colorado", "Idaho", "Montana", "Nevada", "New Mexico", "Utah", "Wyoming", "Alaska", "California", "Hawaii", "Oregon", "Washington")] <- "West"
+  data$Census_Region[data$state %in% c("Arizona", "Colorado", "Idaho", "Montana",
+                                       "Nevada", "New Mexico", "Utah", "Wyoming",
+                                       "Alaska", "California", "Hawaii", "Oregon",
+                                       "Washington")] <- "West"
   
   data$Census_Region[data$state %in% c("Delaware","Florida","Georgia","Maryland", 
                                        "North Carolina", "South Carolina", 
