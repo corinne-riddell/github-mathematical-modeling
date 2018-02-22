@@ -1,4 +1,4 @@
-## Good enough git and github workflow
+## Good Enough Git and GitHub Workflow
 
 This is a general guide that I follow each day when working in my own repositories. It is best to get this practice down by yourself on a project, and once you’re comfortable the steps can be generalized to collaborating with others.
 
