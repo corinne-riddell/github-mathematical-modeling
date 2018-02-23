@@ -27,4 +27,5 @@ add_Census_Region <- function(data, state) {
   data$Census_Region <- factor(data$Census_Region, levels = c("West", "Midwest", "South", "Northeast"))
   
   return(data)
+  # to be removed
 }
