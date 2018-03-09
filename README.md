@@ -9,5 +9,6 @@ We will rely heavily on materials developed by others:
 
 The file [Good Enough Git and GitHub Workflow](https://github.com/corinne-riddell/github-mathematical-modeling/blob/master/Good-enough-github-workflow.md) describes how to use Git + GitHub in your day-to-day analysis life. 
 
+This post about workflow is also very useful: https://andrewbtran.github.io/NICAR/2018/workflow/docs/01-workflow_intro.html?utm_content=buffer858fd&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 
 
