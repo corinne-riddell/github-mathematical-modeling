@@ -18,6 +18,16 @@ This is a general guide that I follow each day when working in my own repositori
 
 10. We'll then need to ask to merge these changes into the main branch. Using your web browser go to the repo. Either, you’ll see a notice on Github about your push or you can choose your branch from the branch dropdown menu. Make a pull request and merge into main.
 
+### Steps after another collaborator has made a change/Steps after a few days have past
+
+Suppose it has been a while since you've worked in the repository, but you'd like to make a few changes. First, remind yourself what branch you are currently on by typing `git branch` into terminal. And check that all your old changes from before have been saved by typing `git status`. Ideally, all your changes have already been saved from last time. If they weren't, take a look at what files have not been saved and commit them if necessary. 
+
+1) Switch to main `git checkout main`
+2) Pull any changes from main that have been made by your collaborators: `git pull origin main`. Note you cannot do this if you have any unsaved changes on your local branch, even if you are on the main branch. If it works, you now have all the changes and the most current versions of the files!
+3) Switch to your new branch for the day: `git checkout -b your-branch-name`
+4) Work as normal (follow step 2 from the very first section of this file)
+
+
 ### Collaborating with others
 
 (Note: This section is subject to future editing, as I learn more about collaborating on GitHub and test and tryout different methods.)
